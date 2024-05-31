@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="adaptive.css">
+
+        <title>enty</title>
+    </head>
+    <body>
+        <div class="wrapper-on">
+            <header>
+               
+                    <img src="img/enty-logo-full.svg" alt="logo" class="rar">
+                    <ul class="sb">
+                        <li><a href="/">Control Panel</a></li>
+                        <li><a href="/">Incorporation</a></li>
+                        <li><a href="/">Accounting</a></li>
+                        <li><a href="/">Pricing</a></li>
+                        <li><a href="/">Explore</a></li>
+                        <li><a href="/">Get Started</a></li>
+                    </ul>
+               
+                
+            </header>
+        
+            <div id="menu">
+                <div id="menu-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <nav class="nav__b" id="nav">
+                    <ul class="ul__b">
+                    <li><a href="#Unlimited" >Control Panel</a></li>
+                    <li><a href="#slider">Incorporation</a></li>
+                    <li><a href="#hub">Accounting</a></li>
+                    <li><a href="#read">Pricing</a></li>
+                    </ul>
+                </nav> 
+            </div>
+            
+            <div class="menu-bg" id="menu-bg"></div>
+            <script src="burger.js"></script>
+        
+        
+            <div class="wrapper">
+                <h1>Accounting for Estonian Company </h1>
+        
+                <p class="p__h1">Don’t sweat yourself with Accounting!
+                    Save time and money with Enty</p>
+        
+                <div class="but">
+                    <button class="button__h1">Let’s start</button>
+                </div>
+        
+                <div class="container">
+                    <div class="Upload">
+                        <p class="p__up">Upload the Documents 
+                        How You Want</p> <p class="p__up__2">Mobile app, web app, designated email & more ways to upload documents. Once you do that, we will file reports on the behalf of your company</p><img class="img__up"  src="img/grid/grid1.png" alt="">
+                    </div>
+        
+                    <div class="all">
+                        <p class="p__left">All types of reporting</p><p class="p__left__small">Annual reports, VAT returns, OSS/IOSS declarations, TSDs, you name it. We can take care of all reports that exist in Estonia.</p><img src="img/grid/grid2.png" alt=""></div>
+        
+                    <div class="prof">
+                        <img src="img/grid/grid3.png" alt=""><p class="p__right">Professional Accountant by your side</p><p class="p__right__small">You don’t need to know anything about accounting. Free consultations with professional accountants and constant support from your personal manager </p>
+                    </div>
+        
+                    <div class="Unlimited" id="Unlimited">
+                        <p class="p__dawn">Unlimited Invoicing, Connection to Bank account, Multi-currency Accounting</p><p class="p__dawn__small">Will help you make accounting even easier. Spend less time and money on boring paperwork </p>
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 't1')">Connect your bank account</button>
+                            <button class="tablinks" onclick="openCity(event, 't2')">Issue and send invoices to your clients</button>
+                            <button class="tablinks" onclick="openCity(event, 't3')">Upload invoices for the period</button>
+                            <button class="tablinks" onclick="openCity(event, 't4')">Our accountant will create and file the report</button>
+                        </div>
+                        
+                        <div id="t1" class="tabcontent">
+                            <img src="img/t1.png" alt="">
+                        </div>
+                        
+                        <div id="t2" class="tabcontent">
+                            <img src="img/t2.png" alt="">
+                        </div>
+                        
+                        <div id="t3" class="tabcontent">
+                            <img src="img/t3.png" alt="">
+                        </div>
+        
+                        <div id="t4" class="tabcontent">
+                            <img src="img/t4.png" alt="">
+                        </div>
+        
+                        <script src="tab.js"></script>
+                    </div>
+        
+        
+                </div>
+                
+            <div class="choice" >
+        
+                    <div id="myBtnContainer">
+                        <button class="btn active" onclick="filterSelection('all')"> All</button>
+                        <button class="btn" onclick="filterSelection('cars')"> I have VAT Number</button>
+                        <button class="btn" onclick="filterSelection('animals')"> No VAT Number</button>
+                        <button class="btn" onclick="filterSelection('fruits')"> E-commerce business</button>
+                        <!-- <button class="btn" onclick="filterSelection('colors')"> I don’t know</button> -->
+                    </div>
+                    
+                <div class="container__2">
+                        <div class="filterDiv cars">Documents yearly</div>
+                        <!-- <div class="filterDiv colors fruits">Апельсин</div> -->
+                        <div class="filterDiv cars">Annual report</div>
+                        <!-- <div class="filterDiv colors">Красный</div> -->
+                        <div class="filterDiv cars animals">1 TSD each month</div>
+                        <!-- <div class="filterDiv colors">Синий</div> -->
+                        <div class="filterDiv animals">VAT Return+</div>
+                        <div class="filterDiv animals">5 more services</div>
+                        <div class="filterDiv fruits">upon request</div>
+                        <div class="filterDiv fruits animals">Extra consultation</div>
+                        <div class="filterDiv fruits">OSS</div>
+                        <div class="filterDiv fruits">IOSS</div>
+                        <div class="filterDiv animals">Extra TSD</div>
+                    </div>
+                        </div>
+                        <script src="fil.js"></script>
+        
+                <div class="even">
+                    <h3>Even more tools to manage company in one subscription</h3>
+                    <div class="even__grid">
+                        <div class="e1"><img src="img/grid/e1.png" alt=""></div>
+                        <div class="e2"><img src="img/grid/e2.png" alt=""></div>
+                        <div class="e3"><img src="img/grid/e3.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        
+        
+                <!-- Слайдер 1 вариант -->
+                <div class="slider" id="slider">
+                    <div class="slider__container">
+                        <img src="./img/Mask_1.png" alt="" class="slider__image fade" />
+                    </div>
+                    <div class="slider__controls">
+                        <div class="slider__dots">
+                            <span class="slider__dot activ" onclick="changeIndex(0)"></span>
+                            <span class="slider__dot" onclick="changeIndex(1)"></span>
+                            <span class="slider__dot" onclick="changeIndex(2)"></span>
+                        </div>
+                        <button class="slider__nav slider__nav-left">&lt;</button>
+                        <button class="slider__nav slider__nav-right">&gt;</button>
+                    </div>
+                </div>
+                <script src="slider.js"></script>
+        
+                <div class="why">
+                    <h4>Why clients trust us</h4>
+                    <div class="why__flex">
+                        <div class="why__flex__1">
+                            <p class="p__why">500+</p>
+                            <p class="p__why__small">companies</p>
+                        </div>
+                        <div class="why__flex__2">
+                            <p class="p__why">800+</p>
+                            <p class="p__why__small">reports created</p>
+                        </div>
+                        <div class="why__flex__3">
+                            <img src="img/why1.png" alt="">
+                            <p class="p__why__right">Trusted e-Residency company</p>
+                        </div>
+                        <div class="why__flex__3">
+                            <img src="img/why2.png" alt="">
+                            <p class="p__why__right">e-Residency marketplace member</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="hub" id="hub">
+                    <p class="p__hub">Find more clients on Enty Hub</p>
+                    <button class="button__hub"><p class="but__p">explore
+                        Enty Hub</p>
+                    </button>
+                    <img src="img/hub.png" alt="">
+                </div>
+        
+                <!-- Аккордион -->
+                    <div id="accordion" class="accordion">
+        
+                        <div class="ac">
+                            <p class="accordion-head">How much does it cost to open and manage a company in Estonia?</p>
+                            <div class="accordion-block">
+                                Opening a company in Estonia with Enty costs €350 with e-Residency and €790 through a notary (the gov fee of €290 is included in both prices). Please notice that the issuance of an e-Residency card itself costs €120 (charged by the Estonian government).
+        
+                                Assistance with bank account opening is included in our subscriptions. However, some banks might charge you extra (from €0 to €100) for the processing of your application. At the same time, please keep in mind that some corporate services from the side of the government might require gov fees. That’s all for the one-time costs for company opening.
+                                
+                                There are also recurring costs — firstly, each company is required to have a legal address and a contact person in Estonia (both are included in our subscriptions).
+                                Other recurring costs are quite individual.
+                                
+                                Enty allows you to take care of accounting, invoicing, and other corporate issues. Our subscriptions start from just €25.
+                                Let’s try Enty! Also, explore our article about the costs of running a company in Estonia.
+                            </div>
+                        </div>
+        
+                        <div class="ac">
+                            <p class="accordion-head">How much does it cost to open and manage a company in Estonia?</p>
+                            <div class="accordion-block">
+                                Opening a company in Estonia with Enty costs €350 with e-Residency and €790 through a notary (the gov fee of €290 is included in both prices). Please notice that the issuance of an e-Residency card itself costs €120 (charged by the Estonian government).
+                            </div>
+                        </div>
+        
+                        <div class="ac">
+                            <p class="accordion-head">When do I become required to pay the share capital?
+                                Can it be spent on my operational expenses?</p>
+                            <div class="accordion-block">
+                                Assistance with bank account opening is included in our subscriptions. However, some banks might charge you extra (from €0 to €100) for the processing of your application. At the same time, please keep in mind that some corporate services from the side of the government might require gov fees. That’s all for the one-time costs for company opening.
+        
+                                There are also recurring costs — firstly, each company is required to have a legal address and a contact person in Estonia (both are included in our subscriptions).
+                                Other recurring costs are quite individual.				
+                            </div>
+                        </div>
+        
+                        <div class="ac">
+                            <p class="accordion-head">Can I use the existing bank account for my new company?</p>
+                            <div class="accordion-block">
+                                Enty allows you to take care of accounting, invoicing, and other corporate issues. Our subscriptions start from just €25.
+                                Let’s try Enty! Also, explore our article about the costs of running a company in Estonia.
+                            </div>
+                        </div>
+        
+                        <div class="ac">
+                            <p class="accordion-head">Can a foreigner open a company in Estonia?</p>
+                            <div class="accordion-block">
+                                There are also recurring costs — firstly, each company is required to have a legal address and a contact person in Estonia (both are included in our subscriptions).
+                                Other recurring costs are quite individual.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script src="accordion.js"></script>
+        
+                <div class="read" id="read">
+                    <h6>Read more about accounting and related products</h6>
+                    <div class="read__grid">
+                        <div class="r1"><img src="img/r1.png" alt=""></div>
+                        <div class="r2"><img src="img/r2.png" alt=""></div>
+                        <div class="r3"><img src="img/r3.png" alt=""></div>
+                        <div class="r4"><img src="img/r4.png" alt=""></div>
+                    </div>
+                </div>
+                
+                <div class="mess">
+                    <p class="p__mess">Don’t miss our product updates by subscribing to our newsletter</p>
+                    <form action="#">
+                        <input type="text"  name="email">
+                    </form>
+                </div>
+            </div>
+        
+            <div class="sim">
+                <div class="sim__svg"><svg width="1260" height="606" viewBox="0 0 1260 606" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48C0 21.4903 21.4903 0 48 0H1212C1238.51 0 1260 21.4903 1260 48V558C1260 584.51 1238.51 606 1212 606H48C21.4903 606 0 584.51 0 558V48Z" fill="url(#paint0_linear_7498_540)" />
+                    <defs>
+                    <linearGradient id="paint0_linear_7498_540" x1="23.1" y1="27.2973" x2="542.973" y2="971.046" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF559C" />
+                        <stop offset="0.2" stop-color="#FD57F4" />
+                        <stop offset="0.4" stop-color="#AD59FA" />
+                        <stop offset="0.6" stop-color="#5A5BF8" />
+                        <stop offset="0.8" stop-color="#5CAEF5" />
+                        <stop offset="1" stop-color="#5EF3EA" />
+                    </linearGradient>
+                    </defs>
+                </svg>
+                </div>
+                <p class="p__sim">Simplify your accounting today</p>
+                <div class="sim__b">
+                    <button class="but__sim">Let’s start</button>
+                </div>
+            </div>
+            <footer>
+                <img src="img/enty-logo-full.svg" alt="logo">
+                <ul class="f1">
+                    <li class="p_f">Services</li>
+                    <li>Incorporation EU</li>
+                    <li>Incorporation Estonia</li>
+                </ul>
+        
+                <ul  class="f2">
+                    <li class="p_f" >Legal Info</li>
+                    <li>Cookies Notice</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms</li>
+                </ul>
+        
+                <ul class="f3">
+                    <li class="p_f" >Contact Us</li>
+                    <li>Facebook</li>
+                    <li>support@enty.io</li>
+                    <li>+7 926 158-11-53</li>
+                </ul>
+        
+                <ul class="f4">
+                    <li>14772172 Tornimäe tn 5, 10145, Tallinn, Harju maakond
+                        Register №16080939</li>
+                    <li>Developed with ❤
+                        by Entytech OÜ and Digirepresent Services OÜ (license № FIU000382)</li>
+                </ul>
+            </footer>
+        
+        
+            <!-- Модальное окно 2 вариант -->
+                    <div class="cookies" id="cookies">
+                        <div class="cookies__descr">
+                            Пользуясь нашим сайтом, вы соглашаетесь с тем, что
+                            <a class="cookies__link" href="#">мы используем cookies</a>
+                        </div>
+                        <div class="cookies__btn" id="cookies__btn">Окей</div>
+                        <script src="cookies.js"></script>
+                    </div>
+        
+        </div>
+    </body>
+</html>
